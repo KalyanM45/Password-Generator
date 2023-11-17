@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Password Generator</h1>
+    <form method="POST" action="/">
+        <label for="password_length">Enter the length of the password:</label>
+        <input type="number" id="password_length" name="password_length" value="12" min="1" required>
+        <button type="submit">Generate Password</button>
+    </form>
+    {% if password %}
+        <h2>Your Generated Password:</h2>
+        <p id="generatedPassword">{{ password }}</p>
+        <button onclick="copyToClipboard()">Copy to Clipboard</button>
+    {% endif %}
+
+    <script>
+        function copyToClipboard() {
+            var passwordElement = document.getElementById("generatedPassword");
+            var range = document.createRange();
+            range.selectNode(passwordElement);
+            window.getSelection().removeAllRanges();
+            window.getSelection().addRange(range);
+            document.execCommand("copy");
+            window.getSelection().removeAllRanges();
+            alert("Password copied to clipboard!");
+        }
+    </script>
+</body>
+</html>

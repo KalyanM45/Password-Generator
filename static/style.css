@@ -1,0 +1,55 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        color: #333;
+    }
+
+    form {
+        margin-top: 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: #333;
+    }
+
+    input {
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    button {
+        padding: 8px;
+        font-size: 16px;
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+
+    h2 {
+        margin-top: 20px;
+        color: #333;
+    }
+
+    p {
+        font-size: 18px;
+        color: #4CAF50;
+        margin-bottom: 10px;
+    }
+
+    button.copy-button {
+        margin-top: 10px;
+        padding: 8px;
+        font-size: 16px;
+        background-color: #008CBA;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
