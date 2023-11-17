@@ -38,6 +38,3 @@ If you'd like to contribute to this project, please follow these steps:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-Make sure to replace placeholders like `your_app_name.py` and update the content as needed. Additionally, consider providing more details about the project, usage, and any other relevant information. The Markdown format allows you to create a well-structured and easy-to-read documentation file for your project on GitHub.
