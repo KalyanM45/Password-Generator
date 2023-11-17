@@ -1,6 +1,6 @@
 # Flask Random Password Generator
 
-This is a simple Flask web application that generates a random password based on user input.
+This is a simple Flask web application that generates a random password based on user input. This Python code constitutes a Flask web application designed to generate random passwords based on user input. Leveraging the Flask framework, the application establishes a basic web interface where users can visit the homepage, input their desired password length through a form, and subsequently trigger the generation of a password. The underlying password generation logic involves shuffling a character set comprising uppercase and lowercase letters, digits, and special symbols. The generated password is then displayed to the user. The code ensures a simple yet effective implementation of a password generation tool, with easy integration and customization facilitated by Flask's minimalist structure.
 
 ## How to Run
 
